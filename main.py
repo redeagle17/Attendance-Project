@@ -1,6 +1,5 @@
 import cv2
 import cvzone
-import streamlit as st
 import os
 import pickle
 import face_recognition
@@ -17,7 +16,7 @@ firebase_admin.initialize_app(cred, {
     'storageBucket': "face-attendence-realtime.appspot.com"
 })
 
-FRAME_WINDOW = st.image([])
+
 cap = cv2.VideoCapture(0)
 cap.set(3, 640)
 cap.set(4, 480)
@@ -138,6 +137,5 @@ while True:
         modeType = 0
         counter = 0
 
-    FRAME_WINDOW.image(imgBackground)
-    # cv2.imshow("IMAGE", imgBackground)
-    # cv2.waitKey(1)
+    cv2.imshow("IMAGE", imgBackground)
+    cv2.waitKey(1)
