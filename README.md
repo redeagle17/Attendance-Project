@@ -1,7 +1,7 @@
 
 # Attendance-Project-OpenCV
 
-### Recognize The faces And Take Automatic Attandance.✨
+### Recognize The faces And Take Automatic Attendance.✨
 
 ![Logo](https://www.ramco.com/hs-fs/hubfs/facial-recognition.jpg?width=650&height=550&name=facial-recognition.jpg)
 
@@ -29,6 +29,9 @@ Python 3.10
 - dlib 19.19.0
 - cvzone 1.5.6
 
-### Sofware Used
+### Editor Used
 - PyCharm 2022.2.3
+
+### Backend
+- Firebase
 
